@@ -1,0 +1,30 @@
+{
+  "name": "basic_user_authenthication_system",
+  "version": "1.0.0",
+  "description": "Luring The User Controller ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r dotenv/config src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "keywords": [
+    "User",
+    "Ragistor"
+  ],
+  "author": "Siddharth Solanki",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0"
+  }
+}

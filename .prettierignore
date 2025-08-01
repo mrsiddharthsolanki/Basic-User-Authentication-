@@ -1,0 +1,14 @@
+env
+*.env
+.env.*
+
+/node_modules
+/web_modules
+/dist
+/.vscode
+/.cache
+/.parcel-cache
+/.nuxt
+/.next
+/.serverless
+/.fusebox
